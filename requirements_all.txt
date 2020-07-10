@@ -20,6 +20,9 @@ ruamel.yaml==0.15.100
 voluptuous==0.11.7
 voluptuous-serialize==2.4.0
 
+# homeassistant.components.tplink
+--no-deps pyHS100==0.3.5
+
 # homeassistant.components.nuimo_controller
 --only-binary=all nuimo==0.1.0
 
@@ -1181,9 +1184,6 @@ py17track==2.2.2
 
 # homeassistant.components.hdmi_cec
 pyCEC==0.4.13
-
-# homeassistant.components.tplink
-pyHS100==0.3.5
 
 # homeassistant.components.met
 # homeassistant.components.norway_air
