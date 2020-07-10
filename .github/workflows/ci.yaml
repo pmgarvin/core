@@ -48,7 +48,7 @@ jobs:
           python -m venv venv
           . venv/bin/activate
           pip install -U pip setuptools
-          pip install -r requirements.txt -r requirements_test.txt -c homeassistant/package_constraints.txt
+          pip install -r requirements.txt -r requirements_test.txt
       - name: Restore pre-commit environment from cache
         id: cache-precommit
         uses: actions/cache@v2
@@ -599,8 +599,8 @@ jobs:
           python -m venv venv
           . venv/bin/activate
           pip install -U pip setuptools wheel
-          pip install -r requirements_all.txt -c homeassistant/package_constraints.txt
-          pip install -r requirements_test.txt -c homeassistant/package_constraints.txt
+          pip install -r requirements_all.txt
+          pip install -r requirements_test.txt
           pip install -e .
 
   pylint:
