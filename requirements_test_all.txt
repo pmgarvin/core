@@ -4,9 +4,6 @@
 -c homeassistant/package_constraints.txt
 -r requirements_test.txt
 
-# homeassistant.components.tplink
---no-deps pyHS100==0.3.5
-
 # homeassistant.components.homekit
 HAP-python==2.9.2
 
@@ -538,6 +535,9 @@ py-melissa-climate==2.0.0
 
 # homeassistant.components.seventeentrack
 py17track==2.2.2
+
+# homeassistant.components.tplink
+pyHS100==0.3.5
 
 # homeassistant.components.met
 # homeassistant.components.norway_air
